@@ -16,4 +16,4 @@ def load_data(file_name):
                 print('Error while reading file!')
                 pass
 
-    return numpy.hstack(data_list), numpy.array(labelsList, dtype=numpy.int32)
+    return numpy.hstack(data_list), numpy.array(label_list, dtype=numpy.int32)
